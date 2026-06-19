@@ -4,7 +4,9 @@ An interactive spreadsheet built in Excel/VBA to automate SOA Exam FM calculatio
 ## Annuities
 Calculate annuity variables for ordinary annuities (equal payment each period), geometric annuities (payment increases by a fixed percentage each period), and arithmetic annuities (payment increases by a fixed amount each period).
 
-Instructions: Select the mode, enter values for all but one input, then click CPT to calculate the blank cell's value. Calculations will not be made if there are 0 or multiple blank cells.
+<img width="619" height="240" alt="image" src="https://github.com/user-attachments/assets/bffe7774-b554-4a67-a5c4-4e49d28c77be" />
+
+Instructions: Select the mode (BGN or END), enter values for all but one input, then click CPT to calculate the blank cell's value. Calculations will not be made if there are 0 or multiple blank cells.
 
 The computation results in a net present value of 0, so the cash flows cannot all have the same sign.
 
@@ -21,12 +23,16 @@ The inputs are:
 * Q: The amount each subsequent payment is increased by
 
 ## Amortization
+<img width="843" height="437" alt="image" src="https://github.com/user-attachments/assets/c8fdfe31-39f9-4e59-bda0-fe22fb6a0ed0" />
+
 Enter the number of payments, interest per period (in percentage), loan amount and level payment. Click *Create Amortization Table* to create the amortization schedule and calculate the remaining balance.
 
 Click *Clear Amortization Table* to clear the amortization schedule.
 
 ## Duration & Convexity
 Calculate duration and convexity for a series of cash flows given by the boxed table.
+
+<img width="484" height="144" alt="image" src="https://github.com/user-attachments/assets/57fad81c-3828-4ef5-8ab2-eda21718b034" />
 
 Each cash flow value has a corresponding frequency, which is the number of periods that cash flow value is received.
 
